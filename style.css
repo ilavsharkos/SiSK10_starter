@@ -9,7 +9,7 @@ p {
   background-position: center;
 } */
 #header {
-  background-image: url(./slike/pozadine-logo/pozadina-main.png);
+  background-image: url(./slike/pozadine-logo/pozadina-main\ d.png);
   background-size: cover;
   background-position: center;
 }
@@ -67,7 +67,7 @@ p {
 }
 
 #main-slika img {
-  width: 40%;
+  width: 32%;
   padding-bottom: 1.5%;
 }
 #main-slika {
@@ -76,34 +76,34 @@ p {
 
 @media (max-width: 1250px) {
   #main-slika img {
-    width: 50%;
+    width: 40%;
   }
 }
 @media (max-width: 1050px) {
   #main-slika img {
-    width: 55%;
+    width: 45%;
   }
 }
 @media (max-width: 900px) {
   #main-slika img {
-    width: 65%;
+    width: 55%;
   }
 }
 @media (max-width: 800px) {
   #main-slika img {
-    width: 70%;
+    width: 55%;
     padding: 5% 0;
   }
 }
 @media (max-width: 700px) {
   #main-slika img {
-    width: 80%;
+    width: 65%;
     padding: 8% 0;
   }
 }
 @media (max-width: 600px) {
   #main-slika img {
-    width: 90%;
+    width: 70%;
     padding: 10% 0;
   }
 }
