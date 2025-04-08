@@ -648,3 +648,100 @@ iframe {
     padding: 3% 2%;
   }
 }
+
+/*sponzori  */
+
+.zahvala-sponzorima p {
+  padding: 2% 10% 5%;
+}
+.col-sponzori {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slike-sponzori {
+  width: 230px;
+  margin: 15%;
+}
+.main-sponzori {
+  text-align: center;
+}
+.main-sponzori h2 {
+  margin: 0 auto 2%;
+  padding-top: 2%;
+}
+.main-sponzori > div {
+  padding: 3% 10% 2%;
+}
+/* #zlatni{background-color: #168D38;}
+ #srebrni{background-color: #45AC34;} */
+
+#zlatni h2,
+#srebrni h2,
+#broncani h2,
+#zlatni-legit h2 {
+  color: #4fc2e9;
+}
+
+#srebrni img,
+#broncani img {
+  margin: 7%;
+}
+#zlatni-legit img {
+  margin: 3% auto 4%;
+}
+#zlatni-legit p {
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0 25% 2%;
+}
+.main-sponzori a {
+  text-decoration: none;
+  color: #4fc2e9;
+}
+.main-sponzori a:hover {
+  color: #37809b;
+}
+
+@media (max-width: 1200px) {
+  .slike-spozori {
+    width: 180px;
+  }
+  #zlatni-legit p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0 20% 2%;
+  }
+}
+@media (max-width: 950px) {
+  .slike-sponzori {
+    width: 160px;
+    margin: 8%;
+  }
+  .zahvala-sponzorima p {
+    padding: 2% 6% 5%;
+  }
+  #zlatni-legit p {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0 12% 2%;
+  }
+}
+@media (max-width: 700px) {
+  .zahvala-sponzorima p {
+    padding: 3% 2%;
+    font-size: 0.9rem;
+  }
+  .main-sponzori > div {
+    padding: 5% 5% 5%;
+  }
+  .main-sponzori h2 {
+    margin: 0 auto 4%;
+    padding-top: 3%;
+  }
+  #zlatni-legit p {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 6% 2%;
+  }
+}
