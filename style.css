@@ -594,11 +594,11 @@ iframe {
 }
 
 .pravila-div a {
-  color: #0c8a00;
+  color: #186d8c;
   text-decoration: none;
 }
 .pravila-div a:hover {
-  color: #005000;
+  color: #4fc2e9;
 }
 
 @media (max-width: 1230px) {
@@ -617,6 +617,70 @@ iframe {
 @media (max-width: 750px) {
   .pravila-div {
     padding: 5% 4% 5%;
+  }
+}
+
+/*   media  */
+#medija-main {
+  padding: 4% 15% 5%;
+}
+.poster-div {
+  text-align: center;
+}
+.poster-div img {
+  width: 65%;
+}
+.poster-div a {
+  text-decoration: none;
+  color: #186d8c;
+}
+.poster-div .col-tekst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.poster-div a:hover {
+  color: #4fc2e9;
+}
+
+@media (max-width: 1300px) {
+  #medija-main {
+    padding: 4% 10% 5%;
+  }
+  .poster-div img {
+    width: 80%;
+  }
+}
+@media (max-width: 1000px) {
+  #medija-main {
+    padding: 4% 5% 5%;
+  }
+  .poster-div img {
+    width: 90%;
+  }
+  .poster-div {
+    font-size: 0.9rem;
+  }
+  .poster-div p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  #medija-main {
+    padding: 4% 5% 5%;
+  }
+  .poster-div img {
+    width: 50%;
+    padding: 5% 0;
+  }
+  .poster-div {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 650px) {
+  .poster-div img {
+    width: 90%;
+    padding: 7% 0;
   }
 }
 
