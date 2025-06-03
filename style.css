@@ -554,14 +554,16 @@ iframe {
   padding-top: 1.5%;
 }
 
+.timovi-tekst,
+.col-ime-org p {
+  color: #3d98b6;
+  font-weight: 500;
+}
+
 @media (max-width: 576px) {
   .col-ime-org {
     text-align: start;
     padding-right: 0;
-  }
-  .col-ime-org p {
-    color: #3d98b6;
-    font-weight: 500;
   }
   .timovi {
     padding-top: 5%;
