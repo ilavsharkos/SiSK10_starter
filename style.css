@@ -532,6 +532,44 @@ iframe {
   margin-top: 3%;
 }
 
+/* TU IDE DIO KOJI JE PRIVREMENO NA ABOUT, A IMAT ĆE VJV SVOJ DIO O ORGANIZACIJI */
+.h3-organisation-onama {
+  text-align: center;
+  padding: 4%;
+}
+
+.col-ime-org {
+  text-align: end;
+  padding-right: 5%;
+}
+
+.organisation-onama-ljudi p {
+  font-size: 1rem;
+}
+
+.timovi {
+  padding-top: 3%;
+}
+.timovi p {
+  padding-top: 1.5%;
+}
+
+@media (max-width: 576px) {
+  .col-ime-org {
+    text-align: start;
+    padding-right: 0;
+  }
+  .col-ime-org p {
+    color: #3d98b6;
+    font-weight: 500;
+  }
+  .timovi {
+    padding-top: 5%;
+  }
+}
+
+/* TU PRESTAJE TAJ DIO */
+
 .btn-stari-sisk-link {
   background-color: #4fc2e9;
 }
