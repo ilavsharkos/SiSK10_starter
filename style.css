@@ -565,6 +565,33 @@ iframe {
   font-weight: 500;
 }
 
+.team-row {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.team-label {
+  flex-shrink: 0;
+  padding-right: 0.5rem;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.full-name {
+  white-space: nowrap;
+}
+
+.team-label {
+  color: #3d98b6;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
 @media (max-width: 576px) {
   .col-ime-org {
     text-align: start;
@@ -576,6 +603,9 @@ iframe {
   }
   .timovi {
     padding-top: 5%;
+  }
+  .flex-container-timovi {
+    padding: 0;
   }
 }
 
