@@ -716,6 +716,7 @@ iframe {
 }
 .poster-div {
   text-align: center;
+  margin-bottom: 5%;
 }
 .poster-div img {
   width: 65%;
@@ -869,7 +870,7 @@ iframe {
 }
 
 #Sufinanciranje img,
-#donatori img {
+.donatori img {
   width: 160px;
   margin: 30px;
   height: auto;
@@ -904,7 +905,7 @@ iframe {
   color: #4fc2e9;
 }
 
-#donatori .slike-sponzori {
+.donatori .slike-sponzori {
   height: 130px;
   width: auto;
 }
@@ -944,6 +945,7 @@ iframe {
     padding: 0 12% 2%;
   }
 }
+
 @media (max-width: 700px) {
   .zahvala-sponzorima p {
     padding: 3% 2%;
@@ -965,5 +967,19 @@ iframe {
     font-weight: 500;
     font-size: 1rem;
     padding: 0 6% 2%;
+  }
+}
+
+.slike-sponzori {
+  max-width: 60%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .slike-sponzori {
+    max-width: 40%;
+    max-height: 100%;
+    object-fit: contain;
   }
 }
