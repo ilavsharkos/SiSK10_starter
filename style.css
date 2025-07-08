@@ -976,6 +976,12 @@ iframe {
   object-fit: contain;
 }
 
+@media (max-width: 1200px) {
+  .accumular {
+    max-width: 40%;
+  }
+}
+
 @media (max-width: 900px) {
   .slike-sponzori {
     max-width: 75%;
@@ -989,5 +995,35 @@ iframe {
     max-width: 40%;
     max-height: 90%;
     object-fit: contain;
+  }
+}
+
+@media (max-width: 1200px) {
+  .accumular {
+    max-height: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .accumular {
+    max-height: 50%;
+  }
+}
+
+@media (max-width: 850px) {
+  .accumular {
+    max-height: 45%;
+  }
+}
+
+@media (max-width: 769px) {
+  .accumular {
+    max-height: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  .accumular {
+    max-height: 45%;
   }
 }
