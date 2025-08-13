@@ -1037,10 +1037,11 @@ iframe {
 }
 
 .img-predavac {
-  max-width: 18rem;
   float: left;
   padding: 0 5% 5% 0;
-  max-height: 21rem;
+  width: 18rem;
+  height: 24rem; /* ista visina za sve */
+  object-fit: cover;
 }
 
 .predavac-slika-tekst {
@@ -1079,10 +1080,11 @@ iframe {
   }
 
   .img-predavac {
-    max-width: 15rem;
     float: left;
     padding: 0 4% 4% 0;
-    max-height: 17rem;
+    width: 15rem;
+    height: 20rem; /* ista visina za sve */
+    object-fit: cover;
   }
 }
 
@@ -1094,14 +1096,23 @@ iframe {
   }
 
   .img-predavac {
-    max-width: 18rem;
+    /* cropa višak bez izobličenja */
     text-align: center;
     padding: 2%;
     padding-bottom: 5%;
     float: none;
-    max-height: 25rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 18rem;
+    height: 24rem; /* ista visina za sve */
+    object-fit: cover;
   }
+}
+
+.vrsta-predavaca {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin: 0 auto 5%;
 }
