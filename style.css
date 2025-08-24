@@ -1038,7 +1038,7 @@ iframe {
 
 .img-predavac {
   float: left;
-  padding: 0 5% 5% 0;
+  padding: 0 3rem 3rem 0;
   width: 18rem;
   height: 24rem; /* ista visina za sve */
   object-fit: cover;
@@ -1056,11 +1056,13 @@ iframe {
 }
 
 .ime-predavac-h2 {
-  text-align: center;
+  text-align: start;
   padding-bottom: 3%;
   padding-top: 4%;
   color: #186d8c;
   clear: both;
+  margin-left: 18rem;
+  padding-left: 0;
 }
 
 .predavac-div {
@@ -1081,10 +1083,14 @@ iframe {
 
   .img-predavac {
     float: left;
-    padding: 0 4% 4% 0;
+    padding: 0 3rem 3rem 0;
     width: 15rem;
     height: 20rem; /* ista visina za sve */
     object-fit: cover;
+  }
+
+  .ime-predavac-h2 {
+    margin-left: 15rem;
   }
 }
 
@@ -1107,6 +1113,11 @@ iframe {
     width: 18rem;
     height: 24rem; /* ista visina za sve */
     object-fit: cover;
+  }
+
+  .ime-predavac-h2 {
+    margin: 0;
+    text-align: center;
   }
 }
 
