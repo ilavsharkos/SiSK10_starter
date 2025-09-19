@@ -20,7 +20,7 @@ p {
   background-position: center;
 } */
 #header {
-  background-image: url(./slike/pozadine-logo/ubicuse.png);
+  background-image: url(./slike/pozadine-logo/pozadina.png);
   background-size: cover;
   background-position: center;
 }
@@ -161,7 +161,7 @@ p {
 }
 
 .bckg-nonmain {
-  background-image: url(./slike/pozadine-logo/ubicuse.png);
+  background-image: url(./slike/pozadine-logo/pozadina.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -1126,4 +1126,120 @@ iframe {
   font-weight: 600;
   font-size: 2.8rem;
   margin: 0 auto 5%;
+}
+
+/* PANELICE */
+
+.panel-main-div {
+  padding: 5% 18% 7%;
+}
+
+.sto-je-panel {
+  padding: 3% 15%;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.prvi-hr-panel {
+  width: 96%;
+  margin: 3% auto 5%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card {
+  width: 40%;
+  border: none;
+  display: inline-block;
+}
+
+.panel-topics-div {
+  text-align: justify;
+  text-align-last: center;
+}
+
+.panel-topics-div p {
+  font-weight: 500;
+}
+
+.naslov-panel-div {
+  height: 8rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row-naziv-panela,
+.row-datum-panel,
+.row-topics-panel {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+/* .row-speakers-panel {
+  text-align: justify;
+} */
+.row-topics-panel {
+  /* text-align: justify; */
+  font-weight: 500;
+}
+.datum-panela-p {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 5%;
+  font-size: 1.1rem;
+  margin: 2% auto 7% !important;
+}
+.naziv-panela-p {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  color: #186d8c;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* .row-system-panel p {
+  margin: auto 10%;
+} */
+
+@media (max-width: 1250px) {
+  .panel-main-div {
+    padding: 5% 10% 7%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .panel-main-div {
+    padding: 5% 8% 9%;
+  }
+  /* .row-system-panel p {
+    margin: auto 7%;
+  } */
+  .card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 850px) {
+  .panel-main-div {
+    padding: 5% 5% 9%;
+  }
+  /* .row-system-panel p {
+    margin: auto 5%;
+  } */
+}
+
+@media (max-width: 750px) {
+  .card {
+    width: 60%;
+  }
+  .card-container {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
 }
