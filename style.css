@@ -946,6 +946,10 @@ iframe {
   }
 }
 
+.TM {
+  max-width: 45% !important;
+}
+
 @media (max-width: 700px) {
   .zahvala-sponzorima p {
     padding: 3% 2%;
@@ -1165,7 +1169,7 @@ iframe {
 }
 
 .naslov-panel-div {
-  height: 8rem;
+  height: 7rem;
 }
 
 .card-container {
@@ -1173,20 +1177,20 @@ iframe {
   justify-content: space-evenly;
 }
 
-.row-naziv-panela,
+/* .row-naziv-panela,
 .row-datum-panel,
 .row-topics-panel {
   text-align: center;
   margin: auto;
   width: 80%;
-}
+} */
 /* .row-speakers-panel {
   text-align: justify;
 } */
-.row-topics-panel {
-  /* text-align: justify; */
+/*.row-topics-panel {
+   text-align: justify;
   font-weight: 500;
-}
+} */
 .datum-panela-p {
   padding-top: 0;
   margin-top: 0;
@@ -1202,10 +1206,23 @@ iframe {
   font-size: 1.5rem;
 }
 
+.speakers-panela-p {
+  font-size: 1rem;
+  padding-bottom: 2%;
+}
+
 /* .row-system-panel p {
   margin: auto 10%;
 } */
 
+@media (max-width: 1300px) {
+  .panel-main-div {
+    padding: 5% 8% 7%;
+  }
+  .naslov-panel-div {
+    height: 6rem;
+  }
+}
 @media (max-width: 1250px) {
   .panel-main-div {
     padding: 5% 10% 7%;
@@ -1213,9 +1230,6 @@ iframe {
 }
 
 @media (max-width: 1000px) {
-  .panel-main-div {
-    padding: 5% 8% 9%;
-  }
   /* .row-system-panel p {
     margin: auto 7%;
   } */
@@ -1224,13 +1238,25 @@ iframe {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1090px) {
   .panel-main-div {
-    padding: 5% 5% 9%;
+    padding: 5% 6% 9%;
+  }
+}
+
+@media (max-width: 880px) {
+  .panel-main-div {
+    padding: 5% 3% 9%;
   }
   /* .row-system-panel p {
     margin: auto 5%;
   } */
+}
+
+@media (max-width: 850px) {
+  .card {
+    width: 70%;
+  }
 }
 
 @media (max-width: 750px) {
@@ -1241,5 +1267,28 @@ iframe {
     display: inline-block;
     justify-content: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 85%;
+  }
+  .panel-topics-div {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+  .sto-je-panel {
+    padding: 3% 5%;
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    width: 95% !important;
+  }
+  .panel-topics-div {
+    text-align: justify;
+    font-size: 0.8rem;
   }
 }
